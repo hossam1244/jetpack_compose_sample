@@ -1,5 +1,7 @@
 package com.example.jetpack_compose
 
+import android.app.ListActivity
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -91,7 +93,7 @@ fun loginButton() {
             modifier = Modifier.fillMaxWidth(),
             colors = ButtonDefaults.buttonColors(containerColor = Color.Blue),
             onClick = {
-                 // context.startActivity(Intent(context, ListActivity::class.java))
+                  context.startActivity(Intent(context, ActivityList::class.java))
             }
         )
         {
