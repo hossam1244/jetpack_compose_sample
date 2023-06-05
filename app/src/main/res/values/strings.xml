@@ -2,4 +2,5 @@
     <string name="app_name">Jetpack_compose</string>
     <string name="title_activity_list">ActivityList</string>
     <string name="title_activity_preview">PreviewActivity</string>
+    <string name="title_activity_state">StateActivity</string>
 </resources>
