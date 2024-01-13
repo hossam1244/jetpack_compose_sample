@@ -25,6 +25,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.input.KeyboardType
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.jetpack_compose.ui.theme.JetpackComposeTheme
 
@@ -57,6 +58,7 @@ class MainActivity : ComponentActivity() {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
+@Preview
 fun usernameField() {
     TextField(
         modifier = Modifier.fillMaxWidth(),
@@ -83,6 +85,8 @@ fun passwordField() {
         })
     )
 }
+
+
 
 
 @Composable
